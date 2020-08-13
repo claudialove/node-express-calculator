@@ -1,0 +1,23 @@
+{
+  "name": "express-calculator",
+  "version": "1.0.0",
+  "description": "this is a dynamically rendered calculator using node and express",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudialove/node-express-calculator.git"
+  },
+  "author": "claudia love",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudialove/node-express-calculator/issues"
+  },
+  "homepage": "https://github.com/claudialove/node-express-calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jshint": "^2.12.0"
+  }
+}
