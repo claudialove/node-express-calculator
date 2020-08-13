@@ -2,61 +2,63 @@
 <html>
 
 <head>
-  <!-- font awesome cdn -->
-  <script src="https://kit.fontawesome.com/baae98d8a4.js" crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/baae98d8a4.js" crossorigin="anonymous"></script>
 
-  <!-- google font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
-    rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
 
-  <!-- browser tab icon cdn -->
-  <link rel="icon" type="image/png" sizes="16x16"
-    href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/lg/57/pocket-calculator_1f5a9.png">
+    <!-- browser tab icon cdn -->
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/lg/57/pocket-calculator_1f5a9.png">
 
-  <!-- bootstrap cdn -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TinDog</title>
+    <!-- bootstrap cdn -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Only Calculator</title>
 
-  <!-- local stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- local stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <h1>Calculator</h1>
-    <input type="number" name="number" placeholder="enter first number">
-    <input type="number" name="number" placeholder="enter secondnumber"><br>
-    <button class="btn btn-primary">calculate</button>
+    <form action="/" method="post">
+        <h1>Sum Only Calculator</h1>
+        <input type="number" name="n1" placeholder="enter first number">
+        <input type="number" name="n2" placeholder="enter second number"><br>
+        <button type="submit" name="submit" class="btn btn-primary">Add My Numbers!</button>
+    </form>
 
- 
-  <!-- Footer -->
-  <footer id="footer">
-    <div class="continer-fluid">
-      <i class="fab fa-twitter fa-1x"></i> 
-      <i class="fab fa-facebook fa-1x"></i> 
-      <i class="fab fa-instagram fa-1x"></i>
-      <i class="fa fa-envelope fa-1x"></i>
-      <p>© Copyright 2018 Node Express Calculator</p>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="continer-fluid">
+            <i class="fab fa-twitter fa-1x"></i>
+            <i class="fab fa-facebook fa-1x"></i>
+            <i class="fab fa-instagram fa-1x"></i>
+            <i class="fa fa-envelope fa-1x"></i>
+            <p>© Copyright 2018 Node Express Calculator</p>
+        </div>
+    </footer>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <!-- local javascript -->
     <script src="calculator.js"></script>
 
 
 </body>
+
 </html>
